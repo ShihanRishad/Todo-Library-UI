@@ -5,6 +5,15 @@
 
 }
 
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+
+html, body {
+  overflow: hidden;
+}
+
+
 body { 
     font-family: Arial, sans-serif; 
     text-align: center;
@@ -115,10 +124,14 @@ md-item {
 .input:focus-within {
   box-shadow: 0 0 4px black;
 }
-.input input {
+.input textarea {
     border: 0;
     padding: 15px 20px;
     outline: 0;
+    overflow: hidden;
+    resize: none;
+    white-space: nowrap;
+    height: 15px;
     transition: border 0.4s;
 }
 
@@ -144,4 +157,10 @@ md-item {
 
 md-icon-button::part(container):hover {
   background-color: darkpurple;
+}
+
+.done {
+  opacity: 0;
+  scale: 0.5;
+  transition: opacity 0.4s, scale 0.4s;
 }
