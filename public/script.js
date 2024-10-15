@@ -15,9 +15,9 @@ document.getElementById('newTask').addEventListener('keydown', function(event) {
   }
 });
 
-document.addEventListener('touchmove', function(event) {
-  event.preventDefault();
-}, { passive: false });
+// document.addEventListener('touchmove', function(event) {
+//   event.preventDefault();
+// }, { passive: false });
 
 let listheight;
 setTimeout(() => {

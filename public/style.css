@@ -81,6 +81,9 @@ body {
 md-item {
   border-radius: 1000px !important;
 }
+md-list-item {
+  border-radius: 100px;
+}
 #taskList {
   width: 100%;
 }
